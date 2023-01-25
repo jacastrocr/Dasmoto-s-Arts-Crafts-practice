@@ -1,0 +1,52 @@
+* {
+    margin: 10;
+    padding: 10;
+    
+}
+
+:root{
+    /* FONT STLYE */
+    --FONT-FAMILY: Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../images/pattern.jpeg);
+}
+
+h1 {
+    font-family: var(--FONT-FAMILY);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+#box1, #box2, #box3 {
+    font-family: var(--FONT-FAMILY);
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#box1 {
+    background-color: mediumspringgreen;
+}
+
+#box2 {
+    background-color: lightcoral;
+}
+
+#box3 {
+    background-color: skyblue;
+}
+
+span {
+    font-family: var(--FONT-FAMILY);
+    font-weight: bold;
+    color: blue;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
